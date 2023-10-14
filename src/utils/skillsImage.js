@@ -75,6 +75,23 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import haskell from '../assets/svg/skills/haskell.svg'
+import eclipse from '../assets/svg/skills/eclipse.svg'
+import maya from '../assets/svg/skills/maya.svg'
+import pascal from '../assets/svg/skills/pascal.svg'
+import windows from '../assets/svg/skills/windows.svg'
+import macos from '../assets/svg/skills/macos.svg'
+import ubuntu from '../assets/svg/skills/ubuntu.svg'
+import centos from '../assets/svg/skills/centos.svg'
+import debian from '../assets/svg/skills/debian.svg'
+import pios from '../assets/svg/skills/pios.svg'
+import sass from '../assets/svg/skills/sass.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
+import express from '../assets/svg/skills/express.svg'
+import androidstudio from '../assets/svg/skills/androidstudio.svg'
+import virtualbox from '../assets/svg/skills/virtualbox.svg'
+import vmware from '../assets/svg/skills/vmware.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +244,38 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'haskell':
+            return haskell;
+        case 'eclipse':
+            return eclipse;
+        case 'maya': 
+            return maya;
+        case 'pascal': 
+            return pascal;
+        case 'windows': 
+            return windows;
+        case 'macos': 
+            return macos;
+        case 'ubuntu': 
+            return ubuntu;
+        case 'centos': 
+            return centos;
+        case 'debian': 
+            return debian;
+        case 'pios': 
+            return pios;
+        case 'sass': 
+            return sass;
+        case 'nodejs': 
+            return nodejs;
+        case 'express': 
+            return express;
+        case 'androidstudio': 
+            return androidstudio;
+        case 'virtualbox': 
+            return virtualbox;
+        case 'vmware': 
+            return vmware;
         default:
             break;
     }
