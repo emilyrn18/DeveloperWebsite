@@ -1,7 +1,7 @@
 export const socialsData = {
     github: 'https://github.com/emilyrn18',
     facebook: 'https://www.facebook.com/',
-    linkedIn: 'www.linkedin.com/in/emily-newton18',
+    linkedIn: 'https://www.linkedin.com/in/emily-newton18',
     instagram: 'https://www.instagram.com/',
     codepen: 'https://codepen.io/',
     twitter: 'https://twitter.com/',
