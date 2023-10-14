@@ -44,7 +44,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    height: 170px;
+    height: flex;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -63,24 +63,8 @@
    
 }
 
-.achievecard-details2 {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
-    font-family: var(--primaryFont);
-    font-size: 18px;
-    position: absolute;
-    bottom: 7px;
-    left: 25px;
-}
-
-.achievecard-details2 h5 {
-   width: 50%;
-}
-
 .achievecard-field {
-    width: 50%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,6 +86,22 @@
     font-size: 1.10rem;
     font-family: Roboto;
     font-weight: 400;
+}
+
+.achievecard-details2 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    position: sticky;
+    bottom: 7px;
+    left: 25px;
+}
+
+.achievecard-details2 h5 {
+   width: 90%;
 }
 
 .achievecard-imgcontainer {
