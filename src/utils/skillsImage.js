@@ -73,7 +73,6 @@ import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
-import haskell from '../assets/svg/skills/haskell.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
