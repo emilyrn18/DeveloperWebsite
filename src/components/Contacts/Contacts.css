@@ -36,7 +36,7 @@
 
 .contacts-body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
@@ -158,9 +158,8 @@
 }
 
 .socialmedia-icons {
-    width: 90%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
