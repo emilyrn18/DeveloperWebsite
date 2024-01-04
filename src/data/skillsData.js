@@ -15,7 +15,7 @@
     'NodeJS',
     'EXPRESS',
     'Bootstrap',
-    'Android Studio',
+    'AndroidStudio',
     'Eclipse',
     'VSCode',
     'Docker',
@@ -32,7 +32,7 @@
     'Ubuntu',
     'CentOS',
     'Debian',
-    'Pi OS',
+    'PiOS',
     'Git'
 ]
 
